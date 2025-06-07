@@ -36,6 +36,42 @@
       "artifacts": [
         "StorageOptimized"
       ]
+    },
+    "/home/rodioncosciug/radu-storage-contract/contracts/StorageComparison.sol": {
+      "lastModificationDate": 1749292873832,
+      "contentHash": "55037d46b31d5bd87d786484d3c94b10",
+      "sourceName": "contracts/StorageComparison.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "StorageComparison"
+      ]
     }
   }
 }
